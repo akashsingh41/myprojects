@@ -1,0 +1,65 @@
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+
+.shadetabs{
+width: 38%;
+height: 45px;
+padding-left: 2%;
+padding-right:10px;
+background: url(images/menu1.png) no-repeat;
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+width: 30%;
+height: 30px;
+padding:5px;
+text-align: center;
+text-decoration: none;
+display:block;
+float:left;
+color: #ffffff;
+font-weight: bold;
+font-size: 12px;
+padding-top: 15px;
+}
+
+
+.shadetabs li a:hover{
+/*text-decoration: underline;*/
+/*background: url(images/menu_r.png) repeat-x;*/
+}
+ a.hover {
+    width: 30%;
+    height: 30px;
+	color: #5fc422;
+
+	
+}	
+
+.shadetabs li a.selected{ /*selected main tab style */
+/*background: url(images/menu_r.png) repeat-x;*/
+color: #5fc422;
+width: 30%;	
+height: 30px;
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+.tabcontent{
+display:none;
+
+}
+
+@media print {
+.tabcontent {
+display:block;
+padding-right:10px; !important;
+}
+}
+

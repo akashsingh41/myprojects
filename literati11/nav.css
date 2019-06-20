@@ -1,0 +1,214 @@
+/*
+©2008 Bam Creative
+
+Title : nav.css
+Author : Graeme Haynes | Bam Creative
+URL : www.sitename.com.au
+
+Description : Stylesheet
+*/
+#navigation a * {
+	display: none;
+}
+#navigation a, #navigation a .hover {
+	height: 45px;
+	position: relative;
+	display: block;
+	background: url(images/nav.png) 0 0 no-repeat;
+}
+#navigation a.home {
+	background-position: 0 0px;
+
+}
+/* .highlight will be remove if JS is enabled */
+#navigation .highlight a.home:hover, #navigation a.home .hover {
+	background-position: 0 -45px ;
+
+}
+
+#navigation a.services {
+	background-position: -114px 0px;
+	
+
+}
+/* .highlight will be remove if JS is enabled */
+#navigation .highlight a.services:hover, #navigation a.services .hover {
+    background-position: -114px -45px;
+
+}
+#navigation a.portfolio {
+	background-position: -248px 0;
+
+}
+/* .highlight will be remove if JS is enabled */
+#navigation .highlight a.portfolio:hover, #navigation a.portfolio .hover {
+	background-position: -248px -45px;
+
+}
+#navigation a.news {
+	background-position: -384px 0;
+
+}
+/* .highlight will be remove if JS is enabled */
+#navigation .highlight a.news:hover, #navigation a.news .hover {
+	background-position: -384px -45px;
+
+}
+#navigation a.about{
+	background-position: -496px 0;
+
+}
+/* .highlight will be remove if JS is enabled */
+#navigation .highlight a.about:hover, #navigation a.about .hover {
+	background-position: -496px -45px;
+
+}
+#navigation a.contact{
+	background-position: -607px 0;
+
+}
+/* .highlight will be remove if JS is enabled */
+#navigation .highlight a.contact:hover, #navigation a.contact .hover {
+	background-position: -607px -45px;
+
+}
+
+
+
+
+li#home.active a{
+background-position:0 -45px;
+cursor:pointer;
+	
+}
+li#services.active a{
+background-position:-114px -45px;
+cursor:pointer;
+	
+}
+li#portfolio.active a{
+background-position:-248px -45px;
+cursor:pointer;
+	
+}
+li#news.active a{
+background-position:-384px -45px;
+cursor:pointer;
+	
+}
+li#about.active a{
+background-position:-496px -45px;
+cursor:pointer;
+	
+}
+li#contact.active a{
+background-position:-607px -45px;
+cursor:pointer;
+	
+}
+
+
+
+
+
+
+
+
+#nav ul {
+	position:absolute;
+	top:52px;
+	left:225px;
+	list-style:none;
+	width:744px;
+	padding:0px;
+	margin:0px;
+	cursor:pointer;
+}
+#nav a {
+	color:#9d9d9d;
+	font-size:1.7em;
+	font-weight:normal;
+	text-decoration:none;
+	display:block;
+}
+#nav ul li {
+	padding:0px;
+	margin:0px;
+	float:left;
+	cursor:pointer;
+
+}
+#nav ul li#home {
+width:114px;
+}
+#nav ul li#services {
+width:134px;
+}
+#nav ul li#portfolio{
+width:136px;
+}
+#nav ul li#news{
+width:112px;
+}
+#nav ul li#about{
+width:111px;
+}
+#nav ul li#contact{
+width:137px;
+}
+
+#sub_nav{
+	margin:-20px 0 30px 30px;
+}
+#sub_nav ul{
+	margin-top:-10px;	
+}
+#sub_nav ul li{
+	line-height:1.5em;
+	list-style-image:url(images/bullet.gif);
+	color:#515151;
+}
+#subnavtop{
+	margin-left:-17px;
+	margin-bottom:10px;
+}
+#subnavtop a#about_sub, #subnavtop a#about_sub .hover {
+	height: 52px;
+	position: relative;
+	display: block;
+	background: url(images/aboutnav.gif) 0 0 no-repeat;
+	width:150px;
+}
+#subnavtop a {
+	background-position: 0 0;
+	text-indent:-999em;
+	position:absolute;
+	display:none;
+
+}
+#subnavtop .highlight a#about_sub:hover, #subnavtop a#about_sub .hover {
+	background-position: -151px 0px;
+}
+
+
+
+#subnavtop a#services_sub, #subnavtop a#services_sub .hover {
+	height: 52px;
+	position: relative;
+	display: block;
+	background: url(images/servicesnav.gif) 0 0 no-repeat;
+	width:150px;
+}
+
+#subnavtop .highlight a#services_sub:hover, #subnavtop a#services_sub .hover {
+	background-position: -151px 0px;
+
+}
+#subnavtop a span{
+	display:none;
+	
+}
+#sub_nav a.active {
+	color: #616161;
+
+}

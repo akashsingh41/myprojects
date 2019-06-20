@@ -1,0 +1,67 @@
+﻿<settings>
+  <Settings>
+    <settingsXML value="settings.xml"/>
+  </Settings>
+  <General_Properties>
+    <clockType value="flipClock"/>
+    <width value="266"/>
+    <height value="184"/>
+    <spacing value="12"/>
+    <backGroundColor value="0"/>
+    <buttonMode value="false"/>
+    <sound value="false"/>
+    <phpFile value="time.php"/>
+  </General_Properties>
+  <Item_Properties>
+    <itemWidth value="15"/>
+    <itemHeight value="20"/>
+    <itemSpacing value="2"/>
+    <cornerRadius value="6"/>
+    <splitSize value="1.5"/>
+    <borderWidth value="0"/>
+    <borderColor value="0xeeeeee"/>
+    <backColor1 value="0x000000"/>
+    <backColor2 value="0x777777"/>
+    <glowColor1 value="0x000000"/>
+    <glowColor2 value="0x000000"/>
+  </Item_Properties>
+  <Shadow_Properties>
+    <distance value="3"/>
+    <angle value="42"/>
+    <color value="0"/>
+    <alpha value="0.25"/>
+    <blurX value="4"/>
+    <blurY value="4"/>
+    <strength value="0.86"/>
+    <quality value="1"/>
+    <inner value="false"/>
+  </Shadow_Properties>
+  <Text_Properties>
+    <fontFace value="Arial"/>
+    <fontColor value="0x33ff00"/>
+    <fontSize value="19"/>
+    <padding value="6"/>
+  </Text_Properties>
+  <DescText_Properties>
+    <descFontFace value="Arial"/>
+    <descFontColor value="0x000000"/>
+    <descFontSize value="13"/>
+    <language value="english.xml"/>
+  </DescText_Properties>
+  <Countdown_Properties>
+    <targetYear value="2011"/>
+    <targetMonth value="01"/>
+    <targetDay value="27"/>
+    <targetHour value="0"/>
+    <targetMinute value="0"/>
+    <useServerTime value="false"/>
+    <targetTimeZone value="2"/>
+    <finishText value="Literati is Here!"/>
+  </Countdown_Properties>
+  <Countdown_Format>
+    <days value="true"/>
+    <hours value="true"/>
+    <minutes value="true"/>
+    <seconds value="true"/>
+  </Countdown_Format>
+</settings>

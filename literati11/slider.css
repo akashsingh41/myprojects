@@ -1,0 +1,15 @@
+#slider-frame { width: 940px; height: 280px; padding:11px; background: url(images/slider-frame.png); } 
+#slider, 
+#slider .jcarousel-clip { width: 940px; height: 280px; position:relative; overflow: hidden; }
+#slider ul { height: 280px; position:relative; overflow: hidden; list-style: none; }
+#slider li { float: left; display: inline; width: 940px; height: 280px; position:relative; }
+#slider .image { position:absolute; top: 0; left: 0; }
+#slider .caption { position:relative; padding: 35px 40px 40px 503px; }
+#slider h2 { font: normal  29px/1.3 Arial, sans-serif; color: #622613; padding-bottom: 20px; }
+#slider p { line-height: 18px; color: #6b6b6b; }
+#slider a { color: #6b6b6b; text-decoration: underline; }
+#slider a:hover { text-decoration: none; }
+.slider-controls { position:absolute; top: 248px; left: 833px; }
+.slider-controls a { float:left; margin-right: 5px; width: 19px; height: 19px; background: #452115; font-size: 0; line-height: 0; text-indent: -4000px; }
+.slider-controls a.active,
+.slider-controls a:hover { background: #4c3d36; }
