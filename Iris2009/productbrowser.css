@@ -1,0 +1,113 @@
+/* PRODUCT BROWSER */
+#productbrowser { width:142%; height:180px; font-size:12px; line-height:18px; /*background:url(macimg/prod_back_1.png) no-repeat top;*/ overflow:auto; }
+#pb-productbrowsercontainer { position:relative; width:98.5%; height:180px; margin:0 auto; }   /*here to change...*/
+#pb-productslider { top:4px; left:0; width:450%; height:140px; position:relative; margin:0; padding:0; }
+#pb-productslider .pb-productimage {
+	float:left;
+	width:3.8%;
+	height:140px;
+	position:relative;
+	top:0px;
+	margin: -0 0px 0 35px;
+}
+#pb-productslider .pb-productimage a:link,
+#pb-productslider .pb-productimage a:visited { float:left; width:100%; padding-top:125px; overflow:hidden; color:#ccc; font-size:11px; text-align:center; background-position:50% 100%; background-repeat:no-repeat; }
+#pb-productslider .pb-productimage a:hover { text-decoration:none; color:#fff; }
+#pb-productslidertrack { position:absolute; top:152px; left:18px; width:96.5%; height:19px; overflow:hidden; background:url(macimg/snhl.png) no-repeat; visibility:hidden; }
+#pb-cat1 { position:absolute; top:0; z-index:150; color:#fff; font-size:11px; cursor:pointer; left:7.5%; }
+#pb-cat2 { position:absolute; top:0; z-index:150; color:#fff; font-size:11px; cursor:pointer; left:31.2%; }
+#pb-cat3 { position:absolute; top:0; z-index:150; color:#fff; font-size:11px; cursor:pointer; left:55.3%; }
+#pb-cat4 { position:absolute; top:0; z-index:150; color:#fff; font-size:11px; cursor:pointer; left:83.2%; }
+#pb-productsliderhandle { position:absolute; width:181px; height:19px; cursor:pointer; z-index:150; }
+#pb-productsliderhandleimage { position:relative; width:185px; height:19px; background:url(macimg/productbrowser_scroller_20080115.png) no-repeat; behavior:url(/global/scripts/lib/iepngfix.htc); cursor:pointer; z-index:5; }
+
+#pb-iphone-leftarrow { position:absolute; left:0; top:0; height:180px; width:69px; z-index:1000; cursor:pointer; background:url(/macimg/pb_arrows_04_left.png) no-repeat top; }
+#pb-iphone-rightarrow { position:absolute; left:760px; top:0; height:180px; width:69px; z-index:100000; cursor:pointer; background:url(/macimg/pb_arrows_04_right.png) no-repeat top; }
+
+/* PRODUCT BROWSER SECTION COLORS */
+#pb-productbrowsercontainer .pb-catclass0 { color:#666; }
+#pb-productbrowsercontainer .pb-catclass1 { color:#777; }
+#pb-productbrowsercontainer .pb-catclass2 { color:#888; }
+#pb-productbrowsercontainer .pb-catclass3 { color:#999; }
+#pb-productbrowsercontainer .pb-catclass4 { color:#aaa; }
+#pb-productbrowsercontainer .pb-catclass5 { color:#bbb; }
+#pb-productbrowsercontainer .pb-catclass6 { color:#ccc; }
+#pb-productbrowsercontainer .pb-catclass7 { color:#ddd; }
+#pb-productbrowsercontainer .pb-catclass8 { color:#eee; }
+#pb-productbrowsercontainer .pb-catclass9 { color:#eee; }
+#pb-productbrowsercontainer .pb-catclass10 { color:#fff; }
+#pb-productbrowsercontainer .pb-catclass11 { color:#fff; }
+#pb-productbrowsercontainer #pb-cat1.pb-catclass5 { color:#fff; }
+
+/* PRODUCT BROWSER PRODUCTS */
+#pb-productslider #pb-airportexpress a { background-image:url(eico/); }
+#pb-productslider #pb-airportextreme a { background-image:url(eico/excalibur.png); }
+#pb-productslider #pb-timecapsule a { background-image:url(eico/codepool.png); }
+#pb-productslider #pb-mightymouse a { background-image:url(eico/bughunt.png); }
+#pb-productslider #pb-keyboards a { background-image:url(eico/encoder.png); }
+#pb-productslider #pb-displays a { background-image:url(eico/humbug.png); }
+#pb-productslider #pb-macpro a {
+	background-image:url(eico/fortuneflick.png);
+	margin: 0 0px 0 -40px;
+}
+#pb-productslider #pb-macbook a { background-image:url(eico/webhunt.png); }
+#pb-productslider #pb-macbookair a { background-image:url(eico/gamestation.png); }
+#pb-productslider #pb-macbookpro a { background-image:url(eico/webhunt.png); }
+#pb-productslider #pb-macmini a {
+	background-image:url(eico/dainformalz.png);
+	margin: 0 0px 0 -25px;
+}
+#pb-productslider #pb-imac a { background-image:url(eico/blackbox.png); }
+#pb-productslider #pb-macosx a {
+	background-image:url(eico/codeabinitio.png);
+	margin: 0 0px 0 -28px;
+}
+#pb-productslider #pb-ilife a {
+	background-image:url(eico/);
+	margin: 0 0px 0 20px;
+}
+#pb-productslider #pb-mobileme a { background-image:url(eico/webridlle.png); }
+#pb-productslider #pb-iwork a { background-image:url(eico/encoder.png); }
+#pb-productslider #pb-safari a { background-image:url(eico/mathologica.png); }
+#pb-productslider #pb-finalcut a { background-image:url(eico/panache.png); }
+#pb-productslider #pb-finalcutserver a { background-image:url(eico/technova.png); }
+#pb-productslider #pb-finalcutexpress a { background-image:url(eico/headbutt.png); }
+#pb-productslider #pb-logicstudio a { background-image:url(eico/axiom.png); }
+#pb-productslider #pb-logicexpress a { background-image:url(eico/leetspeak.png);}
+
+/* PRODUCT  REPOSITIONING */
+#pb-productslider #pb-airportexpress { margin:0 0 0 0px; }
+#pb-productslider #pb-airportextreme {
+	margin:0 -0px 0 -60px;
+}
+#pb-productslider #pb-timecapsule {
+	margin:0 15px 0 -18px;
+}
+#pb-productslider #pb-xsan { margin-left:0px; }
+#pb-productslider #pb-macmini {
+	margin:0 -18px 0 -20px;
+}
+#pb-productslider #pb-macbook { margin:0 0px 0 20px; }
+#pb-productslider #pb-macbookpro {
+	margin:0 0px 0 -60px;
+}
+#pb-productslider #pb-macbookair {
+	margin:0 0px 0 -25px;
+}
+#pb-productslider #pb-imac {
+	margin:0 16px 0 -25px;
+}
+#pb-productslider #pb-displays {
+	margin:0 -40px 0 -22px;
+}
+#pb-productslider #pb-macosx { margin:0 7px 0 0px; }
+#pb-productslider #pb-xserve { margin:0 0px 0 0px; }
+#pb-productslider #pb-xsan { margin:0 0px 0 -14px; }
+#pb-productslider #pb-keyboards {
+	margin:0 0px 0 -20px;
+}
+#pb-productslider #pb-finalcutexpress { margin:0 -10px 0 0px; }
+#pb-productslider #pb-macosxserver { margin:0 0px 0 0px; }
+#pb-productslider #pb-finalcutserver { margin:0 10px 0 0px; }
+#pb-productslider #pb-shake { margin:0 -10px 0 -10px; }
+#pb-productslider #pb-macosx{ margin-left:+40;}
